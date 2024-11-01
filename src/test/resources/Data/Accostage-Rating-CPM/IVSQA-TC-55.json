@@ -1,0 +1,301 @@
+{
+  "bundleMessageType": "",
+  "applyAllControls": true,
+  "bundle": {
+    "technicalIdentifier": "7911333082164371711",
+    "technicalDetails": {
+      "transmissionMethod": {
+        "system": "https://www.almerys.com/norme/INVAL"
+      },
+      "metadata": {
+        "data": {
+          "Sphere": "AG2R"
+        }
+      }
+    },
+    "creation": "2024-09-27T00:00:00Z",
+    "claims": [
+      {
+        "technicalIdentifier": "28f71d26-4bb6-4f22-b5f5-df7ce8097c10",
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "period": {
+              "start": "2024-02-16T00:00:00Z",
+              "end": "2048-07-10T09:15:30Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INVAL",
+              "code": "INVIPP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "38a167c6-ed99-37d3-b173-6c7c8b70aa42-227a72ef-47a3-3183-8e51-10cc97b0df65",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "5334e54c-1621-40d8-9b79-df8a902b51cc",
+                      "type": {
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "5334e54c-1621-40d8-9b79-df8a902b51cc",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "1583",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ],
+                    "name": "PPI",
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "4831",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "birthDetails": {
+                "date": "1981-07-11"
+              },
+              "birthDate": "1981-07-11",
+              "company": {
+                "period": {}
+              },
+              "job": {
+                "period": {}
+              },
+              "naturalPerson": [
+                {
+                  "value": "227a72ef-47a3-3183-8e51-10cc97b0df65",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ]
+            },
+            "filters": [
+              {
+                "type": {
+                  "code": "TAUX-INV-FONC"
+                },
+                "filterValues": [
+                  {
+                    "value": "77.0",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "TAUX-INV-PRO"
+                },
+                "filterValues": [
+                  {
+                    "value": "45.0",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "TAUX-INV-POND"
+                },
+                "filterValues": [
+                  {
+                    "value": "68",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "FAITS_GENE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MAL",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CODE_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "INVIPP",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "INV",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "seniority": [],
+            "adjudications": [
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INVAL",
+                  "code": "N"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6437999999999999
+                }
+              }
+            ],
+            "specialConditions": [
+              {
+                "code": "Terminology",
+                "reference": "CP-OPT INV-IPP-PASS-FORMULA-RR",
+                "value": 300.0
+              },
+              {
+                "code": "Terminology",
+                "reference": "CP-MED-OPT INV-IPP-TXGAR-FORMULA",
+                "value": 4.0
+              }
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CSGDeductible",
+                "value": "N"
+              },
+              {
+                "code": "CRDS",
+                "value": "N"
+              },
+              {
+                "code": "CSG",
+                "value": "N"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              }
+            ],
+            "currentPeriod": {
+              "start": "2024-02-16T00:00:00Z",
+              "end": "2048-07-10T09:15:30Z"
+            }
+          }
+        ],
+        "filters": [],
+        "event": {
+          "period": {
+            "start": "2024-02-16T00:00:00Z"
+          },
+          "identifier": {
+            "value": "1ca2aa2e-46de-4d12-ad34-28cbb0022cc6"
+          }
+        },
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RC",
+            "FlowType": "FLUX_ASSURE"
+          }
+        },
+        "occurrence": {
+          "identifier": "e3d6be5d-9c6f-4da7-8410-52446a700c91_6ceaf442-fa0c-43f6-a85f-b679810cfc80",
+          "period": {
+            "start": "2024-02-16T00:00:00Z"
+          },
+          "declarationDate": "2024-02-16T00:00:00Z",
+          "claimTrigger": {
+            "period": {
+              "start": "2024-02-16T00:00:00Z"
+            },
+            "code": "INV"
+          }
+        },
+        "justificationDate": "2026-02-16T00:00:00Z"
+      },
+      {
+        "technicalIdentifier": "3fcaf3c2-a038-4b2d-a338-10fa6b6e2dd4",
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "period": {
+              "start": "2024-02-16T00:00:00Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INVAL",
+              "code": "INVIPP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "38a167c6-ed99-37d3-b173-6c7c8b70aa42-227a72ef-47a3-3183-8e51-10cc97b0df65",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ]
+            },
+            "filters": []
+          }
+        ],
+        "filters": [],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RO"
+          }
+        }
+      }
+    ],
+    "modelVersion": "2.12.26"
+  },
+  "run": 1,
+  "exchangeProcessingEntryIdentifier": "",
+  "bundleIdentifier": "d7676621-cc92-437e-81b4-f0993199f482",
+  "creation": "2024-09-27T15:41:32.522Z",
+  "precalculate": true,
+  "calculate": false,
+  "mode": "PREST",
+  "count": false,
+  "returnAllDetails": true
+}

@@ -1,0 +1,112 @@
+{
+  "listProducts": [
+    {
+      "identifier": {
+        "type": {
+          "text": "id"
+        },
+        "value": "1583"
+      },
+      "filters": [
+        {
+          "type": {
+            "code": "TAUX-INV-PRO"
+          },
+          "filterValue": [
+            {
+              "value": "45.0",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "CODE_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "INVIPP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "TAUX-INV-POND"
+          },
+          "filterValue": [
+            {
+              "value": "68",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "CAT_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "INV",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "id": "FP01",
+            "code": "CODE_RISQUE",
+            "label": "Risque"
+          },
+          "filterValue": [
+            {
+              "value": "INVIPP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "FAITS_GENE"
+          },
+          "filterValue": [
+            {
+              "value": "MAL",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "TAUX-INV-FONC"
+          },
+          "filterValue": [
+            {
+              "value": "77.0",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        }
+      ],
+      "plan": [
+        {
+          "internalId": "4831"
+        }
+      ],
+      "period": {
+        "startDate": "2024-02-16T00:00:00Z",
+        "endDate": "2048-07-10T09:15:30Z"
+      },
+      "contextCode": "04",
+      "calculeRate": true,
+      "externalRef": "1"
+    }
+  ]
+}
