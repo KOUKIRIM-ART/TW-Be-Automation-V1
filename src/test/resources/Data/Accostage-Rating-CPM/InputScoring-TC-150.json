@@ -1,0 +1,88 @@
+{
+  "listProducts": [
+    {
+      "identifier": {
+        "type": {
+          "text": "id"
+        },
+        "value": "1417"
+      },
+      "filters": [
+        {
+          "type": {
+            "code": "FAITS_GENE"
+          },
+          "filterValue": [
+            {
+              "value": "MAL",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 2
+        },
+        {
+          "type": {
+            "id": "FP01",
+            "code": "CODE_RISQUE",
+            "label": "Risque"
+          },
+          "filterValue": [
+            {
+              "value": "INCAP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 2
+        },
+        {
+          "type": {
+            "code": "CAT_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "ATR",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 2
+        },
+        {
+          "type": {
+            "code": "MISSION"
+          },
+          "filterValue": [
+            {
+              "value": "N",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 2
+        },
+        {
+          "type": {
+            "code": "D_SINISTRE"
+          },
+          "filterValue": [
+            {
+              "value": "80",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 2
+        }
+      ],
+      "plan": [
+        {
+          "internalId": "4485"
+        }
+      ],
+      "period": {
+        "startDate": "2024-06-01T00:00:00Z",
+        "endDate": "2024-10-13T00:00:00Z"
+      },
+      "contextCode": "04",
+      "calculeRate": true,
+      "externalRef": "2"
+    }
+  ]
+}

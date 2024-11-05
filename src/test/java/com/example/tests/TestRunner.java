@@ -12,9 +12,13 @@ public class TestRunner {
     @Test
     void runAllTests() {
         Results results = Runner.path(
-                        "classpath:Accostage-Rating-CPM/IVSQA-TC-76.feature",
-                        "" +
-                                "src/test/resources/Accostage-Rating-CPM/IVSQA-TC-55.feature"
+
+//                        "classpath:Accostage-Rating-CPM/IVSQA-TC-78.feature",
+//                                "classpath:Accostage-Rating-CPM/IVSQA-TC-55.feature",
+//                                "classpath:Accostage-Rating-CPM/IVSQA-TC-76.feature",
+//                                "classpath:Accostage-Rating-CPM/IVSQA-TC-150.feature",
+                                "classpath:Accostage-NDM-ORBI/IVSQA-TC-167.feature"
+
 
                 )
                 .outputCucumberJson(true)

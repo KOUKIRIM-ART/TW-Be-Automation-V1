@@ -21,9 +21,11 @@ function fn() {
         baseUrl_Rating : 'https://rating-backend-rec.ivs-hp.be-ys.com/pivot/realtime',
         baseUrlVerify : 'https://rating-backend-rec.ivs-hp.be-ys.com/pivot/realtime',
         urlScoringApi : "https://scoring-search-dev.ivs-hp.be-ys.com/scoring-search/searchRules/V2/",
-        urlBCUMAN : "https://rating-backend-dev.ivs-hp.be-ys.com/regulation/all",
-        urlNDM : "https://rating-backend-dev.ivs-hp.be-ys.com/api/revaluation-Indices",
-        token : "classpath:common/Authorization.feature@access_token"
+        urlBCUMAN : "http://bcu-man-back-rec.ivs-hp.be-ys.com/bcu-manager-back/regulation/all",
+        urlNDM : "https://rating-backend-rec.ivs-hp.be-ys.com/api/revaluation-Indices",
+        token : "classpath:common/Authorization.feature@access_token",
+        URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
+        URLOrbiApi2 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
 
     }
     if (env ==='dev') {
@@ -217,9 +219,11 @@ function fn() {
             config.baseUrl_Rating = 'https://rating-backend-rec.ivs-hp.be-ys.com/pivot/realtime',
             config.baseUrlVerify = 'https://rating-backend-rec.ivs-hp.be-ys.com/pivot/realtime',
             config.urlScoringApi = "https://scoring-search-rec.ivs-hp.be-ys.com/scoring-search/searchRules/V2/",
-            config.urlBCUMAN = "https://rating-backend-dev.ivs-hp.be-ys.com/regulation/all",
+            config.urlBCUMAN = "http://bcu-man-back-rec.ivs-hp.be-ys.com/bcu-manager-back/regulation/all",
             config.urlNDM = "https://rating-backend-dev.ivs-hp.be-ys.com/api/revaluation-Indices",
-            config.token = "classpath:common/Authorization.feature@access_token"
+            config.token = "classpath:common/Authorization.feature@access_token",
+            config.URLOrbiApi1 = "https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
+            config.URLOrbiApi2 = "https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
 
 
         karate.log('karate.env system property was:', env);

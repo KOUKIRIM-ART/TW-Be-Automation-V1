@@ -1,0 +1,127 @@
+{"listProducts": [
+{
+"identifier": {
+"type": {
+"text": "id"
+},
+"value": "49"
+},
+"filters": [
+{
+"type": {
+"code": "ANC",
+"label": "Ancienneté",
+"attributes": [
+{
+"code": "ANC_REF",
+"value": "AMA"
+},
+{
+"code": "ANC_SOURCE",
+"value": "INT"
+},
+{
+"code": "ANC_DATE",
+"value": "SIN"
+},
+{
+"code": "ANC_UNIT",
+"value": "Y"
+},
+{
+"code": "ANC_MOD",
+"value": "PROF"
+},
+{
+"code": "ANC_REV",
+"value": "CONTINUE"
+}
+]
+},
+"filterValue": [
+{
+"value": "0",
+"operator": ">="
+}
+],
+"sequenceItem": 1
+},
+{
+"type": {
+"code": "ALD",
+"label": "Affection longue durée (ALD)"
+},
+"filterValue": [
+{
+"value": "O",
+"operator": "="
+}
+],
+"sequenceItem": 1
+},
+{
+"type": {
+"code": "CODE_RISQUE"
+},
+"filterValue": [
+{
+"value": "MENSU",
+"operator": "="
+}
+],
+"sequenceItem": 1
+},
+{
+"type": {
+"code": "CAT_RISQUE"
+},
+"filterValue": [
+{
+"value": "ATR",
+"operator": "="
+}
+],
+"sequenceItem": 1
+},
+{
+"type": {
+"code": "FAITS_GENE"
+},
+"filterValue": [
+{
+"value": "MAL",
+"operator": "="
+}
+],
+"sequenceItem": 1
+},
+{
+"type": {
+"id": "FP01",
+"code": "CODE_RISQUE",
+"label": "Risque"
+},
+"filterValue": [
+{
+"value": "MENSU",
+"operator": "="
+}
+],
+"sequenceItem": 1
+}
+],
+"plan": [
+{
+"internalId": "1032"
+}
+],
+"period": {
+"startDate": "2023-03-15T00:00:00Z",
+"endDate": "2023-03-15T00:00:00Z"
+},
+"contextCode": "04",
+"calculeRate": true,
+"externalRef": "1"
+}
+]
+}

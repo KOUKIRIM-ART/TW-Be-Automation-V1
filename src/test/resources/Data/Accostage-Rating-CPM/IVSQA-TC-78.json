@@ -1,0 +1,316 @@
+{
+  "bundleMessageType": "",
+  "applyAllControls": true,
+  "bundle": {
+    "technicalIdentifier": "{{$guid}}",
+    "technicalDetails": {
+      "transmissionMethod": {
+        "system": "https://www.almerys.com/norme/INCAP"
+      },
+      "bundlesCount": 1,
+      "metadata": {
+        "data": {
+          "Sphere": "AG2R"
+        }
+      }
+    },
+    "businessIdentifier": "f5e5539a-f0cf-44cb-9dd9-419e93b040c2 | 9477080e-e3b7-36bf-bb69-cec6688698f0",
+    "creation": "2024-08-01T00:00:00Z",
+    "claims": [
+      {
+        "technicalIdentifier": "bbc04d1c-870b-4d24-9f4c-9df021c82fc0",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "codings": null,
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1987-03-08"
+          },
+          "naturalPerson": [
+            {
+              "value": "e4f58564-9f06-37cd-a5b9-6ffc493da98a-fa2a0386-7342-4316-b40d-29eabb31fae3",
+              "type": {
+                "codings": null,
+                "text": "internalId"
+              }
+            }
+          ]
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "period": {
+              "start": "2023-03-15T00:00:00Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INCAP",
+              "code": "MENSU"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "codings": null,
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "5812c965-2275-4f71-bb57-39b3b6b920f7",
+                      "type": {
+                        "codings": null,
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "5812c965-2275-4f71-bb57-39b3b6b920f7",
+                        "type": {
+                          "codings": null,
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "49",
+                        "type": {
+                          "codings": null,
+                          "text": "internalId"
+                        }
+                      }
+                    ],
+                    "name": "BASE-MS-Non-Cadre-nationale",
+                    "riskBearer": null,
+                    "serviceRange": null,
+                    "feature": null,
+                    "version": null,
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "1032",
+                            "type": {
+                              "codings": null,
+                              "text": "internalId"
+                            }
+                          }
+                        ],
+                        "name": null
+                      }
+                    ],
+                    "productRange": null,
+                    "productContents": null,
+                    "otherEligiblePlans": null
+                  }
+                }
+              ],
+              "profession": {
+                "period": {
+                  "start": "2023-01-01T00:00:00Z"
+                }
+              },
+              "company": {
+                "period": {
+                  "start": "2023-01-01T00:00:00Z"
+                }
+              },
+              "job": {
+                "period": {}
+              }
+            },
+            "relay": [],
+            "filters": [
+              {
+                "type": {
+                  "code": "FAITS_GENE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MAL",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CODE_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MENSU",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "ATR",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "ALD",
+                  "label": "Affection longue durée (ALD)"
+                },
+                "filterValues": [
+                  {
+                    "value": "O",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "seniority": [
+              {
+                "unit": "Y",
+                "mode": "PROF",
+                "reference": "AMA",
+                "date": "SIN",
+                "source": "INT",
+                "revision": "CONTINUE",
+                "value": "0"
+              }
+            ],
+            "adjudications": [
+              {}
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CSG",
+                "value": "O"
+              },
+              {
+                "code": "CSGDeductible",
+                "value": "O"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              },
+              {
+                "code": "CRDS",
+                "value": "O"
+              }
+            ]
+          }
+        ],
+        "filters": [],
+        "event": {
+          "period": {
+            "start": "2023-03-15T00:00:00Z"
+          },
+          "declarationDate": "2024-08-01T00:00:00Z",
+          "identifier": {
+            "value": "event{{benefId}}"
+          }
+        },
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RC",
+            "flowType": "FLUX_ASSURE"
+          }
+        },
+        "occurrence": {
+          "period": {
+            "start": "2023-03-15T00:00:00Z"
+          },
+          "declarationDate": "2023-03-15T00:00:00Z"
+        }
+      },
+      {
+        "technicalIdentifier": "59fc0a8d-61a9-4057-937e-043212eb03d4",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "codings": null,
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1987-03-08"
+          },
+          "naturalPerson": [
+            {
+              "value": "e4f58564-9f06-37cd-a5b9-6ffc493da98a-fa2a0386-7342-4316-b40d-29eabb31fae3",
+              "type": {
+                "codings": null,
+                "text": "internalId"
+              }
+            }
+          ]
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "period": {
+              "start": "2023-03-15T00:00:00Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INCAP",
+              "code": "MENSU"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "codings": null,
+                    "text": "internalId"
+                  }
+                }
+              ]
+            },
+            "filters": []
+          }
+        ],
+        "filters": [],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RO"
+          }
+        }
+      }
+    ],
+    "modelVersion": "2.12.15",
+    "obfuscated": false
+  },
+  "run": 1,
+  "exchangeProcessingEntryIdentifier": "",
+  "bundleIdentifier": "47faae7e-c845-4fae-913a-eb37f0a10aea",
+  "creation": "2024-08-01T06:24:32.441Z",
+  "precalculate": true,
+  "calculate": false,
+  "mode": "PREST",
+  "count": false,
+  "returnAllDetails": true
+}

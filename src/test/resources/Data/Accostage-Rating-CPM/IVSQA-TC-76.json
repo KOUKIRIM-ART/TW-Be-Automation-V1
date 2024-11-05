@@ -1,0 +1,405 @@
+{
+  "bundleMessageType": "",
+  "applyAllControls": true,
+  "bundle": {
+    "technicalIdentifier": "8837174632803718079",
+    "benefitIdentifier": "{{prestation}}",
+    "technicalDetails": {
+      "transmissionMethod": {
+        "system": "INCAP"
+      },
+      "bundlesCount": 1,
+      "metadata": {
+        "data": {
+          "Sphere": "AG2R"
+        }
+      }
+    },
+    "businessIdentifier": "",
+    "creation": "2024-02-26T00:00:00Z",
+    "claims": [
+      {
+        "technicalIdentifier": "b3829760-437a-4bf4-a08b-b45f272276bc",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "contractualDetails": [
+            {
+              "regulationCode": "10307",
+              "identifiers": [
+                {
+                  "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contract": {
+                "identifiers": [
+                  {
+                    "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                    "type": {
+                      "text": "internalId"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 2,
+            "period": {
+              "start": "2024-06-01T00:00:00Z",
+              "end": "2024-07-13T00:00:00Z"
+            },
+            "actCode": {
+              "code": "INCAP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                      "type": {
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "1417",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ],
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "4485",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "adjudications": [
+              {
+                "category": {
+                  "code": "ReferenceSalary"
+                },
+                "reference": "d4a869c1-0ae5-42c4-b5b2-60b8c5fb6179",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 50000.00
+                }
+              },
+              {
+                "category": {
+                  "code": "ReferenceSalary"
+                },
+                "reference": "c2b91fff-3ee9-4987-bcc0-b7d3c6f45076",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 80000.00
+                }
+              },
+              {
+                "category": {
+                  "code": "ReferenceSalary"
+                },
+                "reference": "cebe5818-bf9c-45c5-b635-f0852ef391a2",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 500.00
+                }
+              },
+              {
+                "amount": {
+                  "amount": 0.1199,
+                  "currency": "EUR"
+                },
+                "category": {
+                  "code": "TxTA",
+                  "system": "https://www.almerys.com/norme/INCAP"
+                }
+              },
+              {
+                "amount": {
+                  "amount": 0.0988,
+                  "currency": "EUR"
+                },
+                "category": {
+                  "code": "TxTB",
+                  "system": "https://www.almerys.com/norme/INCAP"
+                }
+              },
+              {
+                "amount": {
+                  "amount": 0.0988,
+                  "currency": "EUR"
+                },
+                "category": {
+                  "code": "TxTC",
+                  "system": "https://www.almerys.com/norme/INCAP"
+                }
+              },
+              {
+                "amount": {
+                  "amount": 0.09,
+                  "currency": "EUR"
+                },
+                "category": {
+                  "code": "TxTD",
+                  "system": "https://www.almerys.com/norme/INCAP"
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INVAL",
+                  "code": "TxTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.0993
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INVAL",
+                  "code": "RessBrutTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              }
+            ],
+            "filters": [
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "ATR",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "FAITS_GENE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MAL",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "D_SINISTRE"
+                },
+                "filterValues": [
+                  {
+                    "value": "80",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CRDS",
+                "value": "O"
+              },
+              {
+                "code": "CSG",
+                "value": "O"
+              },
+              {
+                "code": "CSGDeductible",
+                "value": "O"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              }
+            ],
+            "indexes": [
+              {
+                "code": "08",
+                "value": "MA"
+              },
+              {
+                "code": "04",
+                "value": "1"
+              },
+              {
+                "code": "03",
+                "value": "INCAP"
+              },
+              {
+                "code": "02",
+                "value": "Salarié"
+              }
+            ]
+          }
+        ],
+        "event": {
+          "period": {
+            "start": "2024-06-01T00:00:00Z",
+            "end": null
+          },
+          "declarationDate": "2024-06-01T00:00:00Z",
+          "identifier": {
+            "value": "5e711510-4670-4bcb-806d-dc3544dcb088"
+          }
+        },
+        "missions": [
+          {
+            "period": {
+              "start": "2024-02-13T00:00:00Z",
+              "end": "2024-05-25T00:00:00Z"
+            },
+            "declarationDate": "2024-07-13T00:00:00Z",
+            "identifier": {
+              "value": "5e711510-4670-4bcb-806d-dc3544dcb088"
+            }
+          }
+        ],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RC",
+            "flowType": "FLUX_ASSURE"
+          }
+        },
+        "occurrence": {
+          "period": {
+            "start": "2024-01-13T00:00:00Z",
+            "end": "2024-07-13T00:00:00Z"
+          },
+          "declarationDate": "2024-03-13T00:00:00Z",
+          "claimTrigger": {
+            "period": {
+              "start": "2024-01-13T00:00:00Z",
+              "end": "2024-07-13T00:00:00Z"
+            },
+            "code": "DCS"
+          }
+        }
+      },
+      {
+        "technicalIdentifier": "b3829760-437a-4bf4-a08b-b45f272276bc",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "contractualDetails": [
+            {
+              "identifiers": [
+                {
+                  "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contract": {
+                "identifiers": [
+                  {
+                    "value": "7d27c99a-9552-49d5-8cbd-ff7a6e4d3a8d",
+                    "type": {
+                      "text": "internalId"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "actCode": {
+              "code": "INCAP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RO"
+          }
+        }
+      }
+    ],
+    "modelVersion": "2.11.15",
+    "obfuscated": false
+  },
+  "run": 1,
+  "exchangeProcessingEntryIdentifier": "",
+  "bundleIdentifier": "222a98e5-0192-4f8c-9d13-a5125dc48b71",
+  "creation": "2024-02-26T10:54:03.047Z",
+  "precalculate": true,
+  "calculate": false,
+  "mode": "PREST",
+  "count": false,
+  "returnAllDetails": true
+}

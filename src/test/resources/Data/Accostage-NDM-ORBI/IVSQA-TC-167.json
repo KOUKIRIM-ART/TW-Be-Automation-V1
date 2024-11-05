@@ -1,0 +1,95 @@
+{
+  "personExternalId": "PP-50",
+  "factoryContextId": "5c3627cb413a6b4788db9bcc",
+  "birthName": "younsi",
+  "lastName": "younsi",
+  "firstName": "maissa",
+  "birthDate": "1879-01-09",
+  "birthDateSS": "",
+  "birthRank": 1,
+  "gender": 2,
+  "ninInfo": {
+    "nin": "4583511109926"
+  },
+  "contactInfo": {
+    "contactPreference": "PORTAL",
+    "defaultEmailExternalId": "EMAIL1",
+    "defaultAddressExternalId": "adr1",
+    "clientPortal": true,
+    "addresses": [
+      {
+        "addressExternalId": "adr1",
+        "name": "1600 Pennsylvania Avenue NW",
+        "city": "Washington",
+        "postcode": "20500",
+        "countryCode": "FR",
+        "deliveryCode": "FR",
+        "additionalBuilding": "Unit 123",
+        "additionalWay": "Northwest"
+      }
+    ],
+    "emails": [
+      {
+        "emailExternalId": "EMAIL1",
+        "emailValue": "SandrineMorel@gmail.com"
+      }
+    ],
+    "phones": [
+      {
+        "phoneExternalId": "PHONE1",
+        "type": "MOBILE",
+        "phoneNumber": "0644000005"
+      },
+      {
+        "phoneExternalId": "PHONE2",
+        "type": "LANDLINE",
+        "phoneNumber": "0644780104"
+      }
+    ]
+  },
+  "fiscalInfos": [
+    {
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31",
+      "referenceFiscalIncome": 30000,
+      "sizeOfHousehold": 2.5
+    }
+  ],
+  "paymentInfo": {
+    "defaultWireTransferExternalId": "PM002",
+    "check": {
+      "order": "younsi maissa"
+    },
+    "wireTransfers": [
+      {
+        "wireTransferExternalId": "PM002",
+        "accountHolder": "maissa",
+        "iban": "BE22233381519747",
+        "bic": "AGRIFRPP3",
+        "startDate": "2025-01-01",
+        "endDate": "2028-01-01"
+      }
+    ]
+  },
+  "paymentSuspension": {
+    "temporarySuspensions": [
+      {
+        "startDate": "2022-02-14",
+        "endDate": "2025-03-02",
+        "suspensionReason": "ATTRIB"
+      },
+      {
+        "startDate": "2026-02-14",
+        "endDate": "2029-03-02",
+        "suspensionReason": "INSTCOURS"
+      }
+    ],
+    "assetFreezes": [
+      {
+        "startDate": "2020-01-01",
+        "endDate": "2029-03-02"
+      }
+    ]
+  }
+
+}
