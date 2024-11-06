@@ -25,7 +25,8 @@ function fn() {
         urlNDM : "https://rating-backend-rec.ivs-hp.be-ys.com/api/revaluation-Indices",
         token : "classpath:common/Authorization.feature@access_token",
         URLNDMApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
-        URLOrbiApi2 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
+        URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
+
 
     }
     if (env ==='dev') {
