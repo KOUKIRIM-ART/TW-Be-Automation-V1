@@ -8,7 +8,7 @@ Feature: [CPM][NDM]Vérifier la réponse de l'API pour les règles de portabilit
     #    * def uuid = function(){ return java.util.UUID.randomUUID() + '' }
     #    * def myId1 = uuid()
     #    * print myId1
-    * def req = read('../Data/Accostage-CPM-NDM/InputScoring-TC-169.json')
+    * def req = read('../Data/Accostage-CPM-NDM/InputScoring-TC-199.json')
 
 
 
@@ -36,5 +36,5 @@ Feature: [CPM][NDM]Vérifier la réponse de l'API pour les règles de portabilit
     * def filter_type_portability = $response.rules[0].benefit.filters[?(@.filterType.code == "TYPE_PORTA")]
     And print filter_type_portability
     * def portability_type = $filter_type_portability[0].listValues[0].code
-    And assert portability_type == "CONV"
+    And assert portability_type == "LEGAL"
 

@@ -1,0 +1,67 @@
+{
+  "listProducts": [
+    {
+      "identifier": {
+        "type": {
+          "text": "id"
+        },
+        "value": "1417"
+      },
+      "filters": [
+        {
+          "type": {
+            "code": "CODE_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "INCAP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "CAT_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "ATR",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "FAITS_GENE"
+          },
+          "filterValue": [
+            {
+              "value": "MAL",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        }
+      ],
+      "plan": [
+        {
+          "internalId": "5129"
+        }
+      ],
+      "content":
+      [
+        { "internalId": "29315"}
+      ]
+    ,
+      "period": {
+        "startDate": "2023-03-15T00:00:00Z",
+        "endDate": "2023-03-15T00:00:00Z"
+      },
+      "contextCode": "04",
+      "calculeRate": true,
+      "externalRef": "1"
+    }
+  ]
+}
