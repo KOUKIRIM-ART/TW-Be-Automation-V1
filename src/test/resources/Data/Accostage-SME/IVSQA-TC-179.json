@@ -1,0 +1,93 @@
+{
+  "header": {
+    "contextId": "5c3627cb413a6b4788db9bcc",
+    "insurerId": "5f4d13243a00ad2ff48138b5"
+  },
+  "object": {
+    "legalPersonExternalId": "LP_001d",
+    "name": "Frac Medical",
+    "nationalId": "05580029600090",
+    "registrationId": "055800296",
+    "registrationDate": "2005-10-01",
+    "legalCategory": "55",
+    "nafCode": "70.10Z",
+    "collectiveAgreement": "1686",
+    "links": {
+      "legalRepresentatives": [
+        {
+          "naturalPersonExternalId": "CRSP_001LR",
+          "addressExternalId": "adr1",
+          "emailExternalId": "EMAIL1",
+          "phoneExternalIds": [
+            "PHONE1"
+          ]
+        }
+      ],
+      "agents": [
+        {
+          "naturalPersonExternalId": "CRSP_001",
+          "addressExternalId": "adr1",
+          "emailExternalId": "EMAIL1",
+          "phoneExternalIds": [
+            "PHONE1"
+          ],
+          "contactPreference": "UNDEFINED",
+          "contactsUnwanted": [
+            "SMS"
+          ]
+        }
+      ]
+    },
+    "contactInfo": {
+      "contactPreference": "UNDEFINED",
+      "contactsUnwanted": [],
+      "defaultAddressExternalId": "adr1",
+      "defaultEmailExternalId": "EMAIL2",
+      "defaultPhoneExternalId": "PHONE1",
+      "addresses": [
+        {
+          "addressExternalId": "adr1",
+          "line1": "société Frac medical",
+          "line2": "service RH",
+          "line3": "fe",
+          "line4": "",
+          "line5": "",
+          "line6": "21800 QUETIGNY",
+          "line7": "FRANCE"
+        }
+      ],
+      "emails": [
+        {
+          "emailExternalId": "EMAIL1",
+          "emailValue": "contact@fake-frac.com"
+        },
+        {
+          "emailExternalId": "EMAIL2",
+          "emailValue": "support@fake-frac.com"
+        }
+      ],
+      "phones": [
+        {
+          "phoneExternalId": "PHONE1",
+          "phoneNumber": "0695960011",
+          "type": "MOBILE"
+        }
+      ]
+    },
+    "paymentInfo": {
+      "paymentPreference": "WIRETRANSFER",
+      "defaultWireTransferExternalId": "WT1",
+      "check": {
+        "order": "Frac"
+      },
+      "wireTransfers": [
+        {
+          "wireTransferExternalId": "WT1",
+          "accountHolder": "Frac",
+          "iban": "FR7630056009271234567890182",
+          "bic": "BDFEFRPPCCT"
+        }
+      ]
+    }
+  }
+}

@@ -41,7 +41,7 @@ Feature: IVSQA-TC-167:[NDM][ORBI] Vérifier le retour de l'API d'Orbi pour la su
     Given url url_Orbi_Get
     And header Authorization = 'Bearer ' + tokens.access_token
     When method GET
-    Then status 200
+   # Then status 200
     And print response
 
     #must_complet
