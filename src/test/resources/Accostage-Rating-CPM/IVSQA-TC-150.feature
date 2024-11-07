@@ -5,14 +5,8 @@ Feature: [Rating][CPM] Vérifier le retour de l'API concernant la revalorisation
     * configure ssl = true
     * def tokens = call read(token)
     * print token
-    #    * def uuid = function(){ return java.util.UUID.randomUUID() + '' }
-    #    * def myId1 = uuid()
-    #    * print myId1
     * def req1 = read('../Data/Accostage-Rating-CPM/IVSQA-TC-150.json')
     * def req2 = read('../Data/Accostage-Rating-CPM/InputScoring-TC-150.json')
-
-
-
 
 
   Scenario: [Rating][CPM] Vérifier le retour de l'API concernant la revalorisation d'un salaire de référence.
