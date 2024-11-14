@@ -24,8 +24,10 @@ function fn() {
         urlBCUMAN : "http://bcu-man-back-rec.ivs-hp.be-ys.com/bcu-manager-back/regulation/all",
         urlNDM : "https://rating-backend-rec.ivs-hp.be-ys.com/api/revaluation-Indices",
         token : "classpath:common/Authorization.feature@access_token",
+        urlNDMcatalogs : "https://referencial-dev.ivs-hp.be-ys.com/api/catalogs/code:P0084",
         URLNDMApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
-        URLOrbiApi2 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
+        URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
+
 
     }
     if (env ==='dev') {
@@ -221,6 +223,7 @@ function fn() {
             config.urlScoringApi = "https://scoring-search-rec.ivs-hp.be-ys.com/scoring-search/searchRules/V2/",
             config.urlBCUMAN = "http://bcu-man-back-rec.ivs-hp.be-ys.com/bcu-manager-back/regulation/all",
             config.urlNDM = "https://rating-backend-dev.ivs-hp.be-ys.com/api/revaluation-Indices",
+            config.urlNDMcatalogs = "https://referencial-dev.ivs-hp.be-ys.com/api/catalogs/code:P0084",
             config.token = "classpath:common/Authorization.feature@access_token",
             config.URLNDMApi1 = "https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
             config.URLOrbiApi2 = "https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"

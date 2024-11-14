@@ -1,0 +1,292 @@
+{
+  "bundleMessageType": "",
+  "applyAllControls": true,
+  "bundle": {
+    "technicalIdentifier": "_nnkj8i5s9",
+    "technicalDetails": {
+      "transmissionMethod": {
+        "system": "https://www.almerys.com/norme/INCAP"
+      },
+      "bundlesCount": 1,
+      "metadata": {
+        "data": {
+          "Sphere": "AG2R"
+        }
+      }
+    },
+    "businessIdentifier": "",
+    "creation": "2023-05-16T23:00:00Z",
+    "claims": [
+      {
+        "technicalIdentifier": "89603adb-6060-4088-9887-747c92afc02f",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1997-04-08",
+            "order": 1
+          }
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "quantity": {},
+            "period": {
+              "start": "2024-03-01T09:15:30Z"
+            },
+            "actCode": {
+              "code": "FGP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ]
+            },
+            "filters": [],
+            "adjudications": []
+          }
+        ],
+        "filters": [],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RO"
+          }
+        }
+      },
+      {
+        "technicalIdentifier": "c8f252f4-77cf-4d86-bd61-e6337dc67c22",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1997-04-08",
+            "order": 1
+          }
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "quantity": {},
+            "period": {
+              "start": "2024-03-01T09:15:30Z",
+              "end": "2026-12-01T09:15:30Z"
+            },
+            "actCode": {
+              "code": "FGP"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "18f70f05-e297-3373-be87-a9f2d8fff88a",
+                      "use": "OFFICIAL",
+                      "type": {
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "18f70f05-e297-3373-be87-a9f2d8fff88a",
+                        "use": "OFFICIAL",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "1668",
+                        "use": "OFFICIAL",
+                        "type": {
+                          "text": "internalId"
+                        },
+                        "assigner": {
+                          "identifier": "cpm"
+                        }
+                      }
+                    ],
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "5022",
+                            "use": "OFFICIAL",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "profession": {
+                "period": {
+                  "start": "2012-01-01T09:15:30Z"
+                }
+              },
+              "company": {
+                "period": {
+                  "start": "2012-01-01T09:15:30Z"
+                }
+              },
+              "job": {
+                "period": {
+                  "start": "2012-01-01T09:15:30Z"
+                }
+              }
+            },
+            "filters": [
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "ATR",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "FAITS_GENE"
+                },
+                "filterValues": [
+                  {
+                    "value": "FGP",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "adjudications": [],
+            "specialConditions": [
+
+              {
+                "code": "TXGAR",
+                "reference": "CP-MED-BASE - FGP-HC-TXGAR-FORMULA",
+                "value": 7
+              },
+              {
+                "code": "Plafond",
+                "reference": "CP-MED-BASE - FGP -AV-NBJ-LIMIT.UPPER",
+                "value": 90
+              },
+              {
+                "code": "TxPASS",
+                "reference": "",
+                "value": 0.9
+              }
+            ],
+            "indexes": [
+              {
+                "code": "03",
+                "value": "MENSU"
+              },
+              {
+                "code": "02",
+                "value": "Salarié"
+              },
+              {
+                "code": "04",
+                "value": "1"
+              }
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CSG",
+                "value": "O"
+              },
+              {
+                "code": "CSGDeductible",
+                "value": "O"
+              },
+              {
+                "code": "CRDS",
+                "value": "O"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              }
+            ]
+          }
+        ],
+        "event": {
+          "period": {
+            "start": "2024-03-01T09:15:30Z"
+          },
+          "declarationDate": "2024-04-01T09:15:30Z",
+          "identifier": {
+            "value": "Event1_{{benefId}}"
+          }
+        },
+        "occurrence": {
+          "period": {
+            "start": "2024-04-01T09:15:30Z"
+          },
+          "identifier": "{{OccurenceId}}",
+          "claimTrigger": {
+            "period": {
+              "start": "2024-04-01T09:15:30Z"
+            }
+          }
+        },
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RC",
+            "flowType": "FLUX_ASSURE"
+          }
+        }
+      }
+    ],
+    "modelVersion": "2.6.15"
+  },
+  "run": 1,
+  "exchangeProcessingEntryIdentifier": "",
+  "bundleIdentifier": "d45f1f9d-62bb-46f9-8e3d-caa8d21ceb9b",
+  "creation": "2023-05-17T12:46:14.068898Z",
+  "precalculate": true,
+  "calculate": false,
+  "count": false,
+  "returnAllDetails": true,
+  "mode": "PREST"
+}

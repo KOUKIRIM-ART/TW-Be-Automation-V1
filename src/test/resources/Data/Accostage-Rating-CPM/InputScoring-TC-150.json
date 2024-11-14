@@ -5,21 +5,9 @@
         "type": {
           "text": "id"
         },
-        "value": "1417"
+        "value": "1366"
       },
       "filters": [
-        {
-          "type": {
-            "code": "FAITS_GENE"
-          },
-          "filterValue": [
-            {
-              "value": "MAL",
-              "operator": "="
-            }
-          ],
-          "sequenceItem": 2
-        },
         {
           "type": {
             "id": "FP01",
@@ -32,57 +20,78 @@
               "operator": "="
             }
           ],
-          "sequenceItem": 2
+          "sequenceItem": 1
         },
         {
           "type": {
-            "code": "CAT_RISQUE"
+            "code": "ANC",
+            "label": "Ancienneté",
+            "attributes": [
+              {
+                "code": "ANC_REF",
+                "value": "AMA"
+              },
+              {
+                "code": "ANC_SOURCE",
+                "value": "INT"
+              },
+              {
+                "code": "ANC_DATE",
+                "value": "SIN"
+              },
+              {
+                "code": "ANC_REV",
+                "value": "CONTINUE"
+              },
+              {
+                "code": "ANC_MOD",
+                "value": "ENT"
+              },
+              {
+                "code": "ANC_UNIT",
+                "value": "M"
+              }
+            ]
           },
           "filterValue": [
             {
-              "value": "ATR",
-              "operator": "="
+              "value": "91",
+              "operator": ">="
+            },
+            {
+              "value": "96",
+              "operator": "<="
             }
           ],
-          "sequenceItem": 2
+          "sequenceItem": 1
         },
         {
           "type": {
-            "code": "MISSION"
+            "id": "FP021",
+            "code": "D_SINISTRE",
+            "label": "Durée du sinistre"
           },
           "filterValue": [
             {
-              "value": "N",
-              "operator": "="
+              "value": "152",
+              "operator": "<="
             }
           ],
-          "sequenceItem": 2
-        },
-        {
-          "type": {
-            "code": "D_SINISTRE"
-          },
-          "filterValue": [
-            {
-              "value": "80",
-              "operator": "="
-            }
-          ],
-          "sequenceItem": 2
+          "sequenceItem": 1
         }
       ],
       "plan": [
         {
-          "internalId": "4485"
+          "internalId": "3604"
         }
       ],
       "period": {
-        "startDate": "2024-06-01T00:00:00Z",
-        "endDate": "2024-10-13T00:00:00Z"
+        "startDate": "2019-08-02T09:15:30Z",
+        "endDate": "2019-12-31T09:15:30Z"
       },
       "contextCode": "04",
       "calculeRate": true,
-      "externalRef": "2"
+      "externalRef": "1"
     }
   ]
 }

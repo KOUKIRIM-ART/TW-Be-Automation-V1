@@ -1,5 +1,5 @@
 {
-  "personExternalId": "PP-50",
+  "personExternalId": "PP8214434771981",
   "factoryContextId": "5c3627cb413a6b4788db9bcc",
   "birthName": "younsi",
   "lastName": "younsi",
@@ -9,7 +9,7 @@
   "birthRank": 1,
   "gender": 2,
   "ninInfo": {
-    "nin": "4583511109926"
+    "nin": "8214434771981"
   },
   "contactInfo": {
     "contactPreference": "PORTAL",
@@ -91,5 +91,4 @@
       }
     ]
   }
-
 }

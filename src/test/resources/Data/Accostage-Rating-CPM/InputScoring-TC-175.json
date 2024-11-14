@@ -1,0 +1,78 @@
+{
+  "listProducts": [
+    {
+      "identifier": {
+        "type": {
+          "text": "id"
+        },
+        "value": "1668"
+      },
+      "filters": [
+        {
+          "type": {
+            "id": "FP01",
+            "code": "CODE_RISQUE",
+            "label": "Risque"
+          },
+          "filterValue": [
+            {
+              "value": "FGP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "CAT_RISQUE"
+          },
+          "filterValue": [
+            {
+              "value": "ATR",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "code": "FAITS_GENE"
+          },
+          "filterValue": [
+            {
+              "value": "FGP",
+              "operator": "="
+            }
+          ],
+          "sequenceItem": 1
+        },
+        {
+          "type": {
+            "id": "FP021",
+            "code": "D_SINISTRE",
+            "label": "Durée du sinistre"
+          },
+          "filterValue": [
+            {
+              "value": "1006",
+              "operator": "<="
+            }
+          ],
+          "sequenceItem": 1
+        }
+      ],
+      "plan": [
+        {
+          "internalId": "5022"
+        }
+      ],
+      "period": {
+        "startDate": "2024-03-01T09:15:30Z",
+        "endDate": "2026-12-01T09:15:30Z"
+      },
+      "contextCode": "04",
+      "calculeRate": true,
+      "externalRef": "1"
+    }
+  ]
+}

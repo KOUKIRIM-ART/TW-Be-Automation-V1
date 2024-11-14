@@ -1,0 +1,714 @@
+{
+  "bundleMessageType": "",
+  "applyAllControls": true,
+  "bundle": {
+    "technicalIdentifier": "{{$guid}}",
+    "technicalDetails": {
+      "transmissionMethod": {
+        "system": "https://www.almerys.com/norme/INCAP"
+      },
+      "bundlesCount": 1,
+      "metadata": {
+        "data": {
+          "Sphere": "AG2R"
+        }
+      }
+    },
+    "businessIdentifier": "",
+    "creation": "2024-02-22T00:00:00Z",
+    "claims": [
+      {
+        "technicalIdentifier": "2fe7ff3b-3c94-4b14-970a-1425c2978657",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1987-02-09"
+          }
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "quantity": {
+              "value": 3
+            },
+            "period": {
+              "start": "2022-06-10T00:00:00Z",
+              "end": "2022-06-12T00:00:00Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INCAP",
+              "code": "MALRED"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "de8fb3f9-45b1-44e6-afb7-c6f351477d9e",
+                      "type": {
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "de8fb3f9-45b1-44e6-afb7-c6f351477d9e",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "1583",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ],
+                    "name": "BASE - MS - Cadres et Non-Cadres",
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "5147",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "company": {
+                "period": {
+                  "start": "2017-03-02T00:00:00Z"
+                }
+              },
+              "contract": {
+                "period": {
+                  "start": "2017-03-02T00:00:00Z"
+                }
+              },
+              "job": {
+                "period": {}
+              }
+            },
+            "relapse": false,
+            "relay": [],
+            "filters": [
+              {
+                "type": {
+                  "code": "CODE_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MALRED",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "RDT",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "seniority": [
+              {
+                "source": "INT",
+                "unit": "M",
+                "mode": "CNT",
+                "reference": "AMA",
+                "date": "SUR",
+                "revision": "OUVERTURE",
+                "value": "6"
+              }
+            ],
+            "adjudications": [
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "ReferenceSalary"
+                },
+                "reference": "f52ece19-6343-4ef5-b74a-d3d3ce0a53fc",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 2800.00
+                },
+                "value": 1
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTA"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTC"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.22318
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTB"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTD"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTD"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTB"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "ReferenceSalary"
+                },
+                "reference": "d35790e4-7564-44b4-8838-8a70f6aa9b12",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 2800.00
+                },
+                "value": 1
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTA"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "IJSSBrut"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTC"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "RessBrutTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              }
+            ],
+            "indexes": [
+              {
+                "code": "04",
+                "value": "0"
+              },
+              {
+                "code": "03",
+                "value": "MENSU"
+              },
+              {
+                "code": "02",
+                "value": "Salarié"
+              }
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CRDS",
+                "value": "O"
+              },
+              {
+                "code": "CSG",
+                "value": "O"
+              },
+              {
+                "code": "CSGDeductible",
+                "value": "O"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              }
+            ]
+          }
+        ],
+        "filters": [],
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RO"
+          }
+        }
+      },
+      {
+        "technicalIdentifier": "d2df3c47-6d15-4e75-82bc-4f7889f9925e",
+        "patient": {
+          "identifiers": [
+            {
+              "value": "{{benefId}}",
+              "type": {
+                "text": "internalId"
+              }
+            }
+          ],
+          "birthDetails": {
+            "date": "1987-02-09"
+          }
+        },
+        "items": [
+          {
+            "_class": "com.almerys.preliquidation.canonicalformat.claim.response.ClaimResponseItem",
+            "sequence": 1,
+            "quantity": {
+              "value": 3
+            },
+            "period": {
+              "start": "2022-06-10T00:00:00Z",
+              "end": "2022-06-12T00:00:00Z"
+            },
+            "actCode": {
+              "system": "https://www.almerys.com/norme/INCAP",
+              "code": "MALRED"
+            },
+            "patient": {
+              "_class": "com.almerys.preliquidation.canonicalformat.claim.Member",
+              "identifiers": [
+                {
+                  "value": "{{benefId}}",
+                  "type": {
+                    "text": "internalId"
+                  }
+                }
+              ],
+              "contractualDetails": [
+                {
+                  "identifiers": [
+                    {
+                      "value": "de8fb3f9-45b1-44e6-afb7-c6f351477d9e",
+                      "type": {
+                        "text": "internalId"
+                      }
+                    }
+                  ],
+                  "contract": {
+                    "identifiers": [
+                      {
+                        "value": "de8fb3f9-45b1-44e6-afb7-c6f351477d9e",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ]
+                  },
+                  "product": {
+                    "identifiers": [
+                      {
+                        "value": "1583",
+                        "type": {
+                          "text": "internalId"
+                        }
+                      }
+                    ],
+                    "name": "BASE - MS - Cadres et Non-Cadres",
+                    "productPlans": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "5174",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "company": {
+                "period": {
+                  "start": "2017-03-02T00:00:00Z"
+                }
+              },
+              "contract": {
+                "period": {
+                  "start": "2017-03-02T00:00:00Z"
+                }
+              },
+              "job": {
+                "period": {}
+              }
+            },
+            "relapse": false,
+            "relay": [],
+            "filters": [
+              {
+                "type": {
+                  "code": "CODE_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "MALRED",
+                    "operator": "="
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "code": "CAT_RISQUE"
+                },
+                "filterValues": [
+                  {
+                    "value": "RDT",
+                    "operator": "="
+                  }
+                ]
+              }
+            ],
+            "seniority": [
+              {
+                "source": "INT",
+                "unit": "M",
+                "mode": "CNT",
+                "reference": "AMA",
+                "date": "SUR",
+                "revision": "OUVERTURE",
+                "value": "6"
+              }
+            ],
+            "adjudications": [
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "ReferenceSalary"
+                },
+                "reference": "f52ece19-6343-4ef5-b74a-d3d3ce0a53fc",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 2800.00
+                },
+                "value": 1
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTA"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTC"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.22318
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTB"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTD"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTD"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "TxTB"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "ReferenceSalary"
+                },
+                "reference": "d35790e4-7564-44b4-8838-8a70f6aa9b12",
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 2800.00
+                },
+                "value": 1
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTA"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "IJSSBrut"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.0
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "%PatTC"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0.6
+                }
+              },
+              {
+                "category": {
+                  "system": "https://www.almerys.com/norme/INCAP",
+                  "code": "RessBrutTot"
+                },
+                "amount": {
+                  "currency": "EUR",
+                  "amount": 0
+                }
+              }
+            ],
+            "specialConditions": [
+              {
+                "code": "terminology",
+                "reference": "CP-MED-OPT MALRED-TXGAR-FORMULA",
+                "value": 85
+              },
+              {
+                "code": "terminology",
+                "reference": "CP-OPT MALRED-PASS-FORMULA-RR",
+                "value": 0.5
+              }
+            ],
+            "indexes": [
+              {
+                "code": "04",
+                "value": "0"
+              },
+              {
+                "code": "03",
+                "value": "MENSU"
+              },
+              {
+                "code": "02",
+                "value": "Salarié"
+              }
+            ],
+            "regulationCharacteristics": [
+              {
+                "code": "CRDS",
+                "value": "O"
+              },
+              {
+                "code": "CSG",
+                "value": "O"
+              },
+              {
+                "code": "CSGDeductible",
+                "value": "O"
+              },
+              {
+                "code": "CASA",
+                "value": "N"
+              }
+            ]
+          }
+        ],
+        "filters": [],
+        "event": {
+          "period": {
+            "start": "2022-06-10T00:00:00Z"
+          },
+          "declarationDate": "2024-02-22T00:00:00Z",
+          "identifier": {
+            "value": "event{{benefId}}"
+          }
+        },
+        "status": "ACTIVE",
+        "metadata": {
+          "data": {
+            "ClaimType": "RC",
+            "flowType": "FLUX_ASSURE"
+          }
+        },
+        "occurrence": {
+          "claimTrigger": {
+            "period": {
+              "start": "2022-06-10T00:00:00Z"
+            }
+          },
+          "period": {
+            "start": "2022-06-10T00:00:00Z"
+          },
+          "declarationDate": "2022-06-10T00:00:00Z"
+        }
+      }
+    ],
+    "modelVersion": "2.8.5",
+    "obfuscated": false
+  },
+  "run": 1,
+  "exchangeProcessingEntryIdentifier": "",
+  "bundleIdentifier": "14864045-f93c-44f2-9747-35fa80684bea",
+  "creation": "2024-02-22T13:55:10.138Z",
+  "precalculate": true,
+  "calculate": true,
+  "mode": "INDEM",
+  "count": false,
+  "returnAllDetails": true
+}
