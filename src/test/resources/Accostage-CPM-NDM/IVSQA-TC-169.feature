@@ -1,4 +1,3 @@
-
 Feature: [CPM][NDM]Vérifier la réponse de l'API pour les règles de portabilité conventionnelle.
 
   Background:
