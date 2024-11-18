@@ -7,8 +7,6 @@ Feature:  Retrieve keycloak access token for REST APIs Authentication
 
   @access_token
   Scenario: Testing auth
-
-
     * def tokens = read(token)
     * url baseUrlVerify
     Given url baseUrlVerify
