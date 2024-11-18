@@ -176,6 +176,19 @@
                           }
                         ]
                       }
+                    ],
+                    "productContents": [
+                      {
+                        "identifier": [
+                          {
+                            "value": "29302",
+                            "use": "OFFICIAL",
+                            "type": {
+                              "text": "internalId"
+                            }
+                          }
+                        ]
+                      }
                     ]
 
                   }
