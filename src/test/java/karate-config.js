@@ -8,11 +8,8 @@ function fn() {
     karate.log('karate.env system property was:', env);
     karate.configure('readTimeout', 999999);
     if (!env) {
-
         env = 'reck';
-
     }
-
 
     var config = {
         env: env,
@@ -26,9 +23,12 @@ function fn() {
         token : "classpath:common/Authorization.feature@access_token",
         urlNDMcatalogs : "https://referencial-dev.ivs-hp.be-ys.com/api/catalogs/code:P0084",
         URLNDMApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
-        URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
-
-
+        URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089",
+        karate: {
+              driver: {
+                waitForTimeout: 40000  // Timeout in milliseconds (e.g., 30 seconds)
+              }
+            }
     }
     if (env ==='dev') {
             config.baseUrl = 'https://rating-backend-dev.ivs-hp.be-ys.com/pivot/realtime'
@@ -56,7 +56,6 @@ function fn() {
         karate.log('karate.URL :', config.baseUrl );
         // customize
         // e.g. config.foo = 'bar';
-
     } else if (env === 'devk') {
             config.baseUrl = 'https://rating-backend-dev.ivs-hp.be-ys.com/pivot/realtime'
             config.baseUrlVerify = 'https://rating-backend-dev.ivs-hp.be-ys.com/verify',
@@ -123,10 +122,10 @@ function fn() {
             config.terminologieUrl ="https://back-pre-rating-0-ext.rating.recb.bcu.openstack.local:8443/terminologies/search", config.token = "classpath:common/Authorization.feature@access_token_demo",
             config.urlSharesCalculation = "https://back-pre-rating-0-ext.rating.recb.bcu.openstack.local:8443/v2/sharesCalculation",
             config.urlpartsCalculation =  "https://back-pre-rating-0-ext.rating.recb.bcu.openstack.local:8443/v2/partsCalculation"
-        karate.log('karate.env system property was:', env );
+        karate.log( 'karate.env system property was:', env );
         config.urlScoringApi = 'https://back-0-ext.scoring.recb.bcu.openstack.local:8484/scoring-search/searchRules/V2/'
-        karate.log('karate.env system property was:', env );
-        karate.log('karate.URL :', config.baseUrl );
+        karate.log( 'karate.env system property was:', env );
+        karate.log( 'karate.URL :', config.baseUrl );
         // customize
         // e.g. config.foo = 'bar';
     } else if (env === 'local') {
@@ -152,7 +151,7 @@ function fn() {
             karate.log('karate.env system property was:', env );
         karate.log('karate.URL :', config.baseUrl );
         // customize
-    } else if( env === 'demo') {
+    } else if( env === 'demo' ) {
         config.baseUrl = 'https://back-pre-rating-0-ext.rating.demo.bcu.openstack.local:8443/pivot/realtime',
             config.baseUrlVerify = 'https://back-pre-rating-0-ext.rating.demo.bcu.openstack.local:8443/verify',
             config.baseUrlDecesShares = 'https://back-pre-rating-0-ext.rating.demo.bcu.openstack.local:8443/sharesCalculation',
@@ -173,7 +172,8 @@ function fn() {
             config.urlpartsCalculation =  "https://back-pre-rating-0-ext.rating.demo.bcu.openstack.local:8443/v2/partsCalculation"
         karate.log('karate.env system property was:', env );
         karate.log('karate.URL :', config.baseUrl );
-    }else if( env === 'rci') {
+
+    } else if( env === 'rci') {
         config.baseUrlDecesShares = 'https://back-pre-rating-0-ext.rating.rci.bcu.openstack.local:8443/sharesCalculation',
             config.baseUrlVerify = 'https://back-pre-rating-0-ext.rating.rci.bcu.openstack.local:8443/verify',
             config.baseUrlDecesParts = 'https://back-pre-rating-0-ext.rating.rci.bcu.openstack.local:8443/partsCalculation',
@@ -194,12 +194,12 @@ function fn() {
             config.urlpartsCalculation =  "https://back-pre-rating-0-ext.rating.rci.bcu.openstack.local:8443/v2/partsCalculation"
         karate.log('karate.env system property was:', env );
         karate.log('karate.URL :', config.baseUrl );
-    } else if( env === 'rcc') {
+    }
+    else if( env === 'rcc') {
         config.baseUrlDecesShares = 'https://back-pre-rating-0-ext.rating.rcc.bcu.openstack.local:8443/sharesCalculation',
             config.baseUrlVerify = 'https://back-pre-rating-0-ext.rating.rcc.bcu.openstack.local:8443/verify',
             config.baseUrlDecesParts = 'https://back-pre-rating-0-ext.rating.rcc.bcu.openstack.local:8443/partsCalculation',
             config.baseUrl = 'https://back-pre-rating-0-ext.rating.rcc.bcu.openstack.local:8443/pivot/realtime',
-
             config.urlSearch ='https://api-rcc.be-ys.com/ratingEs/rcc/usages/search/v1',
             config.urlcancel = 'https://api-rcc.be-ys.com/ratingEs/rcc/usages/cancel',
             config.simulateUrl = 'https://back-pre-rating-0-ext.rating.rcc.bcu.openstack.local:8443/rating/simulate',
@@ -227,8 +227,6 @@ function fn() {
             config.token = "classpath:common/Authorization.feature@access_token",
             config.URLNDMApi1 = "https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
             config.URLOrbiApi2 = "https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089"
-
-
         karate.log('karate.env system property was:', env);
         karate.log('karate.URL :', config.baseUrl);
         // customize
@@ -236,5 +234,7 @@ function fn() {
     }
     karate.log('================================================================');
     karate.log('================================================================');
+
+    driver: { type: 'chrome' }
     return config;
 }

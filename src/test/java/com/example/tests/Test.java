@@ -8,8 +8,6 @@ public class Test {
     Karate runTestsAccostage_CPM_NDM() {
         return Karate.run("classpath:Accostage-CPM-NDM");
     }
-  
-
     @Karate.Test
     Karate runTestAccostage_NDM_ORBI() {
         return Karate.run("classpath:Accostage-NDM-ORBI");
