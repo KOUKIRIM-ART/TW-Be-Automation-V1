@@ -12,14 +12,14 @@ public class TestRunner {
     @Test
     void runAllTests() {
         Results results = Runner.path(
+//
+//                                "classpath:Accostage-CPM-NDM"
+//                                "classpath:Accostage-DC-NDM"
+//                                "classpath:Accostage-NDM-ORBI",
+//                                "classpath:Accostage-Rating-CPM",
+                          "classpath:UI-Testing",
 
-                             "classpath:Accostage-CPM-NDM",
-                                    "classpath:Accostage-DC-NDM",
-                                    "classpath:Accostage-NDM-ORBI",
-                                    "classpath:Accostage-Rating-CPM",
-                                    "classpath:Accostage-SME"
-
-
+                                   "classpath:Accostage-SME"
                 )
                 .outputCucumberJson(true)
                 .parallel(1);

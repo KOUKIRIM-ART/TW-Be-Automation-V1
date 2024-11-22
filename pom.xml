@@ -145,11 +145,13 @@
             <id>${deployement-repo-id}</id>
             <uniqueVersion>false</uniqueVersion>
             <name>Release deployement repository from user settings</name>
+            <!--suppress UnresolvedMavenProperty -->
             <url>${deployement-repo-url}</url>
         </repository>
         <snapshotRepository>
             <id>${snapshot-deployement-repo-id}</id>
             <name>Snapshots deployement repository from user settings</name>
+            <!--suppress UnresolvedMavenProperty -->
             <url>${snapshot-deployement-repo-url}</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
