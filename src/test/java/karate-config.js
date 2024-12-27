@@ -24,11 +24,37 @@ function fn() {
         urlNDMcatalogs : "https://referencial-dev.ivs-hp.be-ys.com/api/catalogs/code:P0084",
         URLNDMApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/v2/catalogs/contextId:5c3627cb413a6b4788db9bcc/functionId:SUSPPAIMT",
         URLOrbiApi1 :"https://referencial-rec.ivs-hp.be-ys.com/api/catalogs/code:P0089",
-        karate: {
-              driver: {
-                waitForTimeout: 40000  // Timeout in milliseconds (e.g., 30 seconds)
-              }
-            }
+    /*   karate: {
+           driver: {
+             waitForTimeout: 40000,  // Timeout for waits
+             type: 'chrome',         // Browser type
+             executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe',  // Path to Chrome executable
+             webDriver: {
+               args: [
+                 '--disable-notifications',            // Disable notifications
+                 '--disable-save-password-bubble',     // Disable save password bubble
+                 '--disable-extensions',               // Disable extensions
+                 '--disable-features=PasswordManager', // Disable password manager
+                 '--start-maximized',                  // Start maximized
+                 '--disable-password-manager',         // Disable password manager
+                 '--incognito',                        // Incognito mode
+                 '--disable-cache'                     // Disable cache
+               ],
+                options: {
+                         'args': [
+                           '--disable-notifications',
+                           '--disable-save-password-bubble',
+                           '--disable-extensions',
+                           '--disable-features=PasswordManager',
+                           '--start-maximized',
+                           '--disable-password-manager',
+                           '--incognito',
+                           '--disable-cache'
+                         ]
+                       }
+             }
+           }
+         }*/
     }
     if (env ==='dev') {
             config.baseUrl = 'https://rating-backend-dev.ivs-hp.be-ys.com/pivot/realtime'
@@ -235,6 +261,6 @@ function fn() {
     karate.log('================================================================');
     karate.log('================================================================');
 
-    driver: { type: 'chrome' }
+   // driver: { type: 'chrome' }
     return config;
 }

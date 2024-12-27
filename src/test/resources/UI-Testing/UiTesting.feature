@@ -1,6 +1,8 @@
 Feature: Demo UI Testing
 
   Scenario:
+
+
     Given driver "https://camunda-bpm-rec.ivs-hp.be-ys.com/camunda/app/cockpit/default/#/login"
     And waitFor("//input[@placeholder='Username']")
     And driver.maximize()
