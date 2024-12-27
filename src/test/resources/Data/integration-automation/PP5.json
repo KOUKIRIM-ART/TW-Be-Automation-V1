@@ -1,0 +1,98 @@
+{
+  "header": {
+    "id": "12343254u5098",
+    "version": "0.9.0",
+    "contextId": "04",
+    "insurerId": "ASS-PREV-002",
+    "channel": "api",
+    "name": "Intégration PP",
+    "title": "Intégration PP",
+    "flowId": "azerty123456",
+    "exchangeId": "qwerty123456",
+    "status": "draft",
+    "date": "2024-06-04T00:00+01:00",
+    "sender": "behub",
+    "description": "...",
+    "creationDate": "2024-06-04T00:00+01:00",
+    "lastChangeDate": "2024-06-04T00:00+01:00",
+    "items": "1"
+  },
+  "naturalPersons": {
+    "metadata": {
+      "id": "1",
+      "messageDate": "2024-06-04T00:00+01:00",
+      "idCorrelation": "1"
+    },
+    "payload": {
+      "personExternalId": "PP3_personne_500384",
+      "gender": 1,
+      "lastName": "Acc2",
+      "birthName": null,
+      "firstName": "integ2",
+      "firstNames": null,
+      "birthDate": "1980-06-13",
+      "birthCity": "Melun",
+      "birthCountry": "FR",
+      "birthDept": "77",
+      "deathDate": null,
+      "birthRank": null,
+      "ninInfo": {
+        "nin": "1860611934777",
+        "controlKey": "09"
+      },
+      "contactInfo": {
+        "contactPreference": "PHONE",
+        "defaultAddressExternalId": "AD1",
+        "defaultEmailExternalId": "EMAIL1",
+        "defaultPhoneExternalId": "PHONE1",
+        "addresses": [
+          {
+            "addressExternalId": "AD1",
+            "recipient": "M. integ2 Acc2",
+            "name": "25 Rue Ordener",
+            "postcode": "75018",
+            "city": "Paris",
+            "countryCode": "FR",
+            "deliveryCode": "FR",
+            "additionalBuilding": "\"\"",
+            "additionalWay": "\"\"",
+            "startDate": "2024-12-23"
+          }
+        ],
+        "emails": [
+          {
+            "emailExternalId": "EMAIL1",
+            "emailValue": "integration.accostage@gmail.com",
+            "startDate": "2024-12-23"
+          }
+        ],
+        "phones": [
+          {
+            "phoneExternalId": "PHONE1",
+            "type": "LANDLINE",
+            "phoneNumber": "+33644000605",
+            "startDate": "2024-12-23"
+          }
+        ],
+        "clientPortal": true
+      },
+      "paymentInfo": {
+        "paymentPreference": "WIRETRANSFER",
+        "check": {
+          "order": "integ2 Acc2"
+        },
+        "wireTransfers": [
+          {
+            "wireTransferExternalId": "WT1",
+            "accountHolder": "integ2 Acc2",
+            "iban": "FR7630001007941234567890185",
+            "bic": "BDFEFRPPCCT",
+            "startDate": "2024-10-08",
+            "invalid": false
+          }
+        ],
+        "defaultWireTransferExternalId": "WT1"
+      }
+    }
+  }
+}

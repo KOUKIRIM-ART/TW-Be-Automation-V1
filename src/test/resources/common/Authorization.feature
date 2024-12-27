@@ -17,6 +17,7 @@ Feature:  Retrieve keycloak access token for REST APIs Authentication
 
   @id_benef
   Scenario: generate id benef
+
     Given url 'https://api-rcc.be-ys.com/auth/realms/BCU_INT/protocol/openid-connect/token'
     And form field username = 'ref-admin'
     And form field password = 'Almerys0'
