@@ -2,7 +2,7 @@ Feature: Demo UI Testing
 
   Scenario:
     Given driver "https://camunda-bpm-rec.ivs-hp.be-ys.com/camunda/app/cockpit/default/#/login"
-    And waitFor("//input[@placeholder='Username']")
+    And waitFor("//input[@placeh older='Username']")
     And driver.maximize()
     And def sleep = function(millis){ java.lang.Thread.sleep(millis) }
     And sleep(1000)

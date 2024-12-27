@@ -17,9 +17,9 @@ public class TestRunner {
 //                                "classpath:Accostage-DC-NDM"
 //                                "classpath:Accostage-NDM-ORBI",
 //                                "classpath:Accostage-Rating-CPM",
-                          "classpath:UI-Testing",
+                           "classpath:integration-automation"
 
-                                   "classpath:Accostage-SME"
+                                  // "classpath:Accostage-SME"
                 )
                 .outputCucumberJson(true)
                 .parallel(1);
