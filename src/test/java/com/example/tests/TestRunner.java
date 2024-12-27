@@ -13,7 +13,7 @@ public class TestRunner {
     void runAllTests() {
         Results results = Runner.path(
 
-                        "classpath:UI-Testing/UiTesting.feature"
+                        "classpath:UI-Testing/TC4-1.feature"
                              //"classpath:Accostage-CPM-NDM",
                               //      "classpath:Accostage-DC-NDM",
                                 //    "classpath:Accostage-NDM-ORBI",
